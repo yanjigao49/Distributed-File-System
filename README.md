@@ -144,4 +144,4 @@ go run main.go -role client -main_addr localhost:8080 -cmd lookup
    `Storage` → `Main` → `Client`
 
 2. **Metadata is not persistent**:  
-   Shutting down the main server will remove all metadata.
+   Shutting down a server will remove all its metadata.
